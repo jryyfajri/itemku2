@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Berhasil</title>
+  <link rel="stylesheet" href="tema.css">
+</head>
+<body>
+
+<div class="detail">
+  <h2>✅ Pembelian Berhasil</h2>
+  <p>Terima kasih telah membeli akun game.</p>
+  <p>Detail akun akan dikirim melalui email.</p>
+
+  <a href="home.html">
+    <button>Kembali ke Home</button>
+  </a>
+</div>
+
+</body>
+</html>

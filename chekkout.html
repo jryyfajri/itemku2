@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="tema.css">
+</head>
+<body>
+
+<header>
+  <h1>Checkout</h1>
+</header>
+
+<div class="checkout">
+  <h3>Data Pembeli</h3>
+  <input type="text" placeholder="Nama Lengkap">
+  <input type="email" placeholder="Email">
+
+  <h3>Metode Pembayaran</h3>
+  <select id="payment">
+    <option>DANA</option>
+    <option>OVO</option>
+    <option>GOPAY</option>
+    <option>Transfer Bank</option>
+  </select>
+
+  <button onclick="processPayment()">Bayar Sekarang</button>
+</div>
+
+<script src="data.js"></script>
+</body>
+</html>
